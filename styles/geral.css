@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--light-blue);
+  color: #fff;
+}
+
+:root {
+  --light-blue: #1e1da0;
+  --blue: #171886;
+  --dark-blue: #090341;
+  --pink: #ff10be;
+}
+
+.flex-row-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  background-color: var(--blue);
+  padding: 0 60px;
+  border-bottom: 1px solid var(--pink);
+}
+
+header img {
+  width: 100px;
+}
+
+header nav {
+  column-gap: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main {
+  padding: 0 60px 30px 60px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+section h2 {
+  font-family: 'Bitter', serif;
+  margin-bottom: 20px;
+}
+
+section p {
+  text-indent: 50px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+footer img {
+  max-width: 100px;
+  height: auto;
+}
+
+#ukgov-logo {
+  max-width: 150px;
+}
+
+#tw-logo {
+  max-width: 150px;
+}
+
+@media (max-width: 700px) {
+  main {
+    padding: 30px 30px;
+    min-width: 340px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  section p {
+    text-indent: 30px;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    flex-wrap: wrap;
+  }
+
+  footer img {
+    max-height: 150px;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 420px) {
+  header {
+    padding: 0 20px;
+  }
+}

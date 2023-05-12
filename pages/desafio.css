@@ -1,0 +1,51 @@
+/* variáveis de cores:
+  --light-blue: #1e1da0;
+  --blue: #171886;
+  --dark-blue: #090341;
+  --pink: #ff10be;
+ */
+
+
+.caixa {
+  border: 2px solid var(--pink);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.caixa h3 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.caixa p,
+.caixa hr {
+  margin: 10px 0;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+input,
+button {
+  margin: 10px;
+}
+
+button {
+  border: none;
+  background-color: var(--pink);
+  color: #fff;
+  padding: 6px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #FF9FE5;
+}
+
+button:active {
+  background-color: #b20b85;
+}

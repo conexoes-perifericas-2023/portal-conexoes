@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Desafio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700;900&family=Inter:wght@400;700;900&display=swap"
+    rel="stylesheet">
+  <link href="../styles/geral.css" rel="stylesheet" type="text/css" />
+  <link href="desafio.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <img src="../img/conexoes-pink-logo.png" alt="Logo conexões">
+    <nav class="flex-row-center">
+      <a href="../index.html">Voltar para a Home</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="caixa">
+      <h3>DESAFIO 01</h3>
+      <p>Converte todos os caracteres de uma string para MAIÚSCULA</p>
+      <input type="text" id="usuarioMaiuscula">
+      <button onclick="converteMaiuscula()">Transformar</button>
+      <input type="text" disabled id="respostaMaiuscula">
+      <hr>
+      <p>Converte todos os caracteres de uma string para minúscula</p>
+      <input type="text" id="usuarioMinuscula">
+      <button>Transformar</button>
+      <input type="text" disabled id="respostaMinuscula">
+    </div>
+
+    <div class="caixa">
+      <h3>DESAFIO 02</h3>
+      <p>Adicione frutas na lista</p>
+      <input type="text" id="inputFruta">
+      <button onclick="adicionaFruta()">Adicionar</button>
+      <p>Lista de Frutas:</p>
+      <ul id="listaFrutas"></ul>
+
+      <hr>
+
+      <p>Adicione nomes na lista</p>
+      <input type="text" id="inputNome">
+      <button>Adicionar</button>
+      <p>Lista de Nomes:</p>
+      <ul id="listaNomes"></ul>
+
+    </div>
+
+    <div class="caixa">
+      <h3>DESAFIO 03</h3>
+      
+      <p>Transforme as três primeiras letras para maiúscula</p>
+      <input type="text" id="inputTresMaiusculas">
+      <button onclick="transformaTresMaiusculas()">Transformar</button>
+      <p id="respostaTresMaiusculas"></p>
+
+      <hr>
+
+      
+    </div>
+
+  </main>
+
+
+  <footer class="flex-row-center">
+    <img src="../img/prefrecife-logo.png" alt="Logo da prefeitura do Recife" id="pref-logo">
+    <img src="../img/uk-tech-hub-logo.png" alt="Logo da Uk Tech Hub" id="uktech-logo">
+    <img src="../img/uk-gov-logo.png" alt="Logo do Governo do Reino Unido" id="ukgov-logo">
+    <img src="../img/tw-logo.png" alt="Logo da ThoughtWorks" id="tw-logo">
+    <img src="../img/favela-logo.png" alt="Logo da ONG Favela" id="favela-logo">
+  </footer>
+  <script src="desafio.js"></script>
+  <script src="d01.js"></script>
+  <script src="d02.js"></script>
+  <script src="d03.js"></script>
+</body>
+
+</html>
