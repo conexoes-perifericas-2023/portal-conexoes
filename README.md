@@ -1,6 +1,6 @@
 # Portal Conexões Periféricas
 
-Este repositório simula um site básico criado com HTML5, CSS3 e JavaScript.
+Este repositório simula um site interminado que necessita de manutenção.
 
 Além dos desafios propostos, a página principal também necessita de alguns ajustes.
 
