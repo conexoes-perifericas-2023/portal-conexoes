@@ -115,14 +115,14 @@
       <p>Filtre o array turnos baseado na preferência do usuário</p>
       <p>Opções: manhã, tarde, noite e madrugada</p>
       <input type="text" id="inputTurno">
-      <button onclick="filtraTurnos()">Filtrar</button>
+      <button onclick="filtraTurnos()">Filtrar turno</button>
       <p>Sua opção foi: <span id="respostaTurno"></span></p>
 
       <hr>
 
       <p>Filtre o array nomesArtistas baseado na preferência do usuário</p>
       <input type="text" id="">
-      <button onclick="filtraTurnos()">Filtrar</button>
+      <button onclick="filtraTurnos()">Filtrar artista</button>
       <p>Sua artista escolhido foi: <span id=""></span></p>
 
     </div>
@@ -130,6 +130,36 @@
     
     <div class="caixa">
       <h3>DESAFIO 09</h3>
+      <h4>Cidades de Pernambuco</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>População</th>
+            <th>Ano de fundação</th>
+          </tr>
+        </thead>
+        <tbody id="tabela-cidades">
+        </tbody>
+      </table>
+      <button onclick="carregaCidades()">Preencher cidades</button>
+
+      <hr>
+
+      <h4>Artistas brasileiros</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>Artista</th>
+            <th>Hit musical</th>
+            <th>Idade</th>
+          </tr>
+        </thead>
+        <tbody id="tabela-artistas">
+        </tbody>
+      </table>
+      <button onclick="carregaArtistas()">Preencher artistas</button>
+
     </div>
 
     <div class="caixa">
@@ -152,8 +182,9 @@
   <script src="./js/d03.js"></script>
   <script src="./js/d04.js"></script>
   <script src="./js/d05.js"></script>
-  <script src="./js/d08.js"></script>
   <script src="./js/d07.js"></script>
+  <script src="./js/d08.js"></script>
+  <script src="./js/d09.js"></script>
 </body>
 
 </html>
