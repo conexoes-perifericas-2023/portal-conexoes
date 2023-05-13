@@ -1,23 +1,9 @@
-# Desafios propostos
+# Portal Conexões Periféricas
 
-Transformar a primeira letra em maiúscula
-a partir de um array de 100 alunas popular um ul
+Este repositório simula um site básico criado com HTML5, CSS3 e JavaScript.
 
-a partir de um form, adicionar coisas numa lista, renderizando na tela
+Além dos desafios propostos, a página principal também necessita de alguns ajustes.
 
+Analise o código, identifique os erros e possíveis melhorias e proponha mudanças e/ou novas funcionalidades.
 
-array de objeto = {
-  nome: '',
-  pronome: '',
-  idade: ''
-}
-
-Um exemplo pronto
-objeto = {
-  empresa
-  tecnologia
-}
-
-lista filtrada
-
-podemos usar um timer, estilo pomodoro
+Bons estudos!
