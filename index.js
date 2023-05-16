@@ -11,5 +11,23 @@ var textoFavela = 'É um hub de educação e aprendizagem empreendedora, inovado
 var textoUk = 'Programa do Governo Britânico que se insere na Cooperação Reino Unido e Brasil para o Acesso Digital com o objetivo de apoiar os ecossistemas brasileiros a se tornarem mais inclusivos, diversos e capazes de criar e desenvolver inovações e tecnologias que respondem aos principais desafios locais e globais.'
 
 var sectionSobre = document.getElementById('sobre')
+var sectionRealizacao = document.getElementById('realizacao')
+var sectionParceria = document.getElementById('parceria')
+var sectionEdicoes = document.getElementById('edicoes')
 
 sectionSobre.innerHTML = `<h2>Sobre</h2><p>${textoConexoes}</p>`
+sectionRealizacao.innerHTML = `
+<h2>Realização</h2>
+<h3>Prefeitura da cidade do Recife - SEJUV</h3>
+<p>${textoSejuv}</p>
+<h3>Consulado Britânico - UK Brazil Tech HUB</h3>
+<p>${textoUk}</p>
+`
+
+sectionParceria.innerHTML = `
+<h2>Parceria</h2>
+<h3>ThoughtWorks</h3>
+<p>${textoTw}</p>
+<h3>ONG FA.VELA</h3>
+<p>${textoFavela}</p>
+`

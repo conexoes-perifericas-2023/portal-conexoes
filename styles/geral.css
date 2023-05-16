@@ -66,6 +66,11 @@ section h2 {
   margin-bottom: 20px;
 }
 
+section h3 {
+  font-family: 'Bitter', serif;
+  margin-bottom: 20px;
+}
+
 section p {
   text-indent: 50px;
   margin-bottom: 20px;
